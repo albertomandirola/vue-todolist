@@ -40,7 +40,12 @@
                                     </button>
                                 </div>
                             </li>
-                            
+                            <li>
+                                <div class="content d-flex align-items-center justify-content-between border py-3">
+                                    <input @keyup.enter="addTodo" v-model="new_todo" type="text" class="form-control form-control-sm" placeholder="inserisci cose da fare">
+                                    <button @click="addTodo" class="btn btn-success btn-sm">aggiungi</button>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     
