@@ -34,7 +34,11 @@
                                 <div class="ps-2" :class="todo.done ? 'text-decoration-line-through' : ''">
                                     {{ todo.text }}
                                 </div>
-                                
+                                <div class="button-container pe-2">
+                                    <button  @click="deleteTodo(index)" class="btn btn-sm btn-danger">
+                                        <i class="fa-regular fa-circle-xmark"></i>
+                                    </button>
+                                </div>
                             </li>
                             
                         </ul>
