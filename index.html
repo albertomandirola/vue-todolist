@@ -31,7 +31,7 @@
                     <div class="col-12">
                         <ul class="list-unstyled">
                             <li v-for="(todo,index) in todo_list" :key="index" class="d-flex align-items-center justify-content-between border py-3">
-                                <div class="ps-2" :class="todo.done ? 'text-decoration-line-through' : ''">
+                                <div @click="todo.done = !todo.done" class="ps-2 pe-auto" :class="todo.done ? 'text-decoration-line-through' : ''">
                                     {{ todo.text }}
                                 </div>
                                 <div class="button-container pe-2">

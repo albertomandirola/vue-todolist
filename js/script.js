@@ -14,37 +14,26 @@ createApp({
                     done: true
                 },
                 {
-                    text: "cose da fare",
+                    text: "andare a fare la spesa",
                     done: false
                 },
                 {
-                    text: "cose da fare",
+                    text: "iniziare a fare regali di natale",
                     done: true
                 },
                 {
-                    text: "cose da fare",
+                    text: "comprare pecorino",
                     done: false
                 },
                 {
-                    text: "cose da fare",
+                    text: "guardare one piece",
                     done: false
                 },
                 {
-                    text: "cose da fare",
+                    text: "pulire casa",
                     done: true
                 },
-                {
-                    text: "cose da fare",
-                    done: false
-                },
-                {
-                    text: "cose da fare",
-                    done: false
-                },
-                {
-                    text: "cose da fare",
-                    done: false
-                },
+                
             ]
         }
     },
